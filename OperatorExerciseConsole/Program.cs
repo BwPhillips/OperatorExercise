@@ -35,7 +35,11 @@ namespace OperatorExerciseConsole
 
             // --------------Exercise 2--------------
 
-            var r = 20;
+
+            //var r = 20;
+
+            var r = double.Parse(Console.ReadLine());
+
             var pi = Math.PI;
 
             var areaOfCircle = pi * (r * r );
